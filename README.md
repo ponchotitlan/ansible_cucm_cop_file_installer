@@ -9,7 +9,7 @@ Cisco technologies are no exception. This repository includes an Ansible module 
 # Setting up the environment
 
 - Ansible must be installed in the host OS
-- Python v.3.6.9 must be installed. This must be the only python version in the virtual environment or host OS
+- Python v.3.6.9 or above must be installed. This must be the only python version in the virtual environment or host OS
 
 Install the dependencies included in this repository with the following command:
 ```
@@ -54,7 +54,7 @@ Update the **cucm_cop_upload.yml** playbook with the following information:
     - debug: var=result
 ```
 
-Leave the fields of CUCM_IP, CUCM_SSH_USERNAME and CUCM_SSH_PASSWORD as mentioned in the playbook given that the token notation will extract the values of the specified CUCM hosts group as stated in the **hosts** file.
+Leave the fields of *CUCM_IP, CUCM_SSH_USERNAME* and *CUCM_SSH_PASSWORD* as mentioned in the playbook given that the token notation will extract the values of the specified CUCM hosts group as stated in the **hosts** file.
 
 The following is a more detailed explanation of the rest of the fields in the playbook:
 
