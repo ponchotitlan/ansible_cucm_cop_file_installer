@@ -16,7 +16,7 @@ Install the dependencies included in this repository with the following command:
 pip install -r requirements.txt
 ```
 
-Copy the files of this repository in your local environment. Make sure that the playbook file is located in the same directory as the * *library* * folder.
+Copy the files of this repository in your local environment. Make sure that the playbook file is located in the same directory as the *library* folder.
 
 Prepare your hosts file with the CUCM servers of interest, as mentioned in the example **host** file of this repository: 
 ```
@@ -72,7 +72,7 @@ The following is a more detailed explanation of the rest of the fields in the pl
 
 In order to run the playbook, issue the following command:
 ```
-ansible-playbook cop_playbook.yml'
+ansible-playbook example_cop_playbook.yml
 ```
 
 In case python3 is not the only version installed in the host system, issue the following command:

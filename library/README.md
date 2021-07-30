@@ -11,7 +11,7 @@ The following exceptions are covered as per standard CLI prompts of CUCM **v.10.
 
 If the * *DO_REBOOT* * variable in the playbook is set to True, a system reboot is issued after the COP file is uploaded. A maximum of 2 attempts is done in case reboot takes too long.
 
-If the * *DO_LOGGING* * variable in the playbook is set to True, a dump file will be generated in the same location as the playbook with all the CLI dumps. The log file name is * *<current_date>_<cucm_ip_address>.log* *. Ever since Ansible does not show feedback or console prints in read time (invoking console is blocked until the current task is done), a useful workaround for real-time monitoring is the following:
+If the * *DO_LOGGING* * variable in the playbook is set to True, a dump file will be generated in the same location as the playbook with all the CLI dumps. The log file name is *<current_date>_<cucm_ip_address>.log*. Ever since Ansible does not show feedback or console prints in read time (invoking console is blocked until the current task is done), a useful workaround for real-time monitoring is the following:
 ```
 tail -f <log_file.log>
 ```
