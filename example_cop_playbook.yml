@@ -1,0 +1,21 @@
+- name: CallManager COP Uploader
+  hosts: mycallmanagers
+  connection: local
+  gather_facts: no
+  tasks:
+    - name: COP upload
+      cucm_cop_upload:
+        CUCM_IP: "{{ansible_ssh_host}}"
+        CUCM_SSH_USERNAME: "{{ansible_user}}"
+        CUCM_SSH_PASSWORD: "{{ansible_ssh_pass}}"
+        REMOTE_SERVER: "<SFTP server address>"
+        REMOTE_USERNAME: "<SFTP server username>"
+        REMOTE_PASSWORD: "<SFTP server password>"
+        REMOTE_DIRECTORY: "<SFTP server COP file route>"
+        REMOTE_SMTP: ''
+        REMOTE_FILE: "<COP file name>"
+        REMOTE_SERVER_TYPE: "SFTP"
+        DO_REBOOT: False
+        DO_LOGGING: True
+      register: result
+    - debug: var=result

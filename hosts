@@ -1,0 +1,7 @@
+[mycallmanagers]
+ansible_ssh_host=<your_ip_address> ansible_user=<your_ssh_username> ansible_ssh_pass=<your_ssh_password>
+ansible_ssh_host=<your_ip_address> ansible_user=<your_ssh_username> ansible_ssh_pass=<your_ssh_password>
+ansible_ssh_host=<your_ip_address> ansible_user=<your_ssh_username> ansible_ssh_pass=<your_ssh_password>
+ansible_ssh_host=<your_ip_address> ansible_user=<your_ssh_username> ansible_ssh_pass=<your_ssh_password>
+ansible_ssh_host=<your_ip_address> ansible_user=<your_ssh_username> ansible_ssh_pass=<your_ssh_password>
+ansible_ssh_host=<your_ip_address> ansible_user=<your_ssh_username> ansible_ssh_pass=<your_ssh_password>
