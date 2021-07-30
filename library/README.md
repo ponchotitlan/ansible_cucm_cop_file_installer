@@ -1,6 +1,6 @@
 # CUCM COP File Installer Ansible module
 
-The cop_upload module connects to the target CUCM node and cancels all current upgrade processes. Afterwards, a utils upgrade initiate process is issued, and prompts are followed accordingly. If the COP file is already installed in the target CUCM node, this module does nothing.
+The cucm_cop_upload module connects to the target CUCM node and cancels all current upgrade processes. Afterwards, a utils upgrade initiate process is issued, and prompts are followed accordingly. If the COP file is already installed in the target CUCM node, this module does nothing.
 
 The following exceptions are covered as per standard CLI promts of CUCM v.10.x, v.11.x and v.12.x:
 
