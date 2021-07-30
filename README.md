@@ -1,6 +1,6 @@
 # ansible_cucm_cop_file_installer
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 Ansible is nowadays the de-facto DevOps technology for IT automation. Ansible modules and playbooks can automate a wide variety of tasks across many devices of multiple vendors. From services management and deployment, to more complex orchestration, Ansible can handle massive operations throughout a network. 
 
